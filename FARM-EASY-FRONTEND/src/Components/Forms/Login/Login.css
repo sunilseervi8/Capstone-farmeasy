@@ -1,0 +1,81 @@
+/* login section */
+.Custom-image {
+  background-image: url('public/Images/login2.webp');
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+/* mobile approach */
+/* step 1:Default styles (for larger screens) */
+.container1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.form-container {
+  display: flex;
+  background-color: white;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  max-width: 1024px;
+  width: 100%;
+}
+
+.left {
+  flex: 3;
+  padding: 2rem;
+}
+
+.right {
+  flex: 2;
+  background-color: #e0e0e0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2rem;
+}
+
+/* Media query for screens smaller than 510px *789px width */
+@media (max-width: 510px) {
+  .form-container {
+    flex-direction: column;
+  }
+
+  .left,
+  .right {
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .right {
+    order: 2;
+    margin-top: 20px;
+  }
+
+  /* Adjust buttons */
+  .right button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+  /* Adjust form fields on smaller screens */
+  .left input {
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+  }
+
+  /* Adjust button on smaller screens */
+  .left button {
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+  }
+}

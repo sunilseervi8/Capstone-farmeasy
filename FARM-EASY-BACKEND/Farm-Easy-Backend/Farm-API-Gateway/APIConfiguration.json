@@ -1,0 +1,84 @@
+{
+  "Routes": [
+    //Account Services
+    {
+      "DownstreamPathTemplate": "/api/Account/{everything}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 8000
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/Account/{everything}",
+      "Methods": [ "GET", "POST", "PUT", "DELETE" ]
+    },
+    //product Services
+    {
+      "DownstreampathTemplate": "/api/Product/{everything}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 8005
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/Product/{everything}",
+      "Methods": [ "GET", "POST", "PUT", "DELETE" ]
+    },
+    //Crops services
+    {
+      "DownstreampathTemplate": "/api/Crops/{everything}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 8003
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/Crops/{everything}",
+      "Methods": [ "GET", "POST", "PUT", "DELETE" ]
+    },
+    //Cloud Services
+    {
+      "DownstreampathTemplate": "/api/Cloud/upload",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 8002
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/Cloud/upload",
+      "Methods": [ "POST" ]
+    },
+
+    //rental services
+    {
+      "DownstreampathTemplate": "/api/rental/{everything}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 8006
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/rental/{everything}",
+      "Methods": [ "GET", "POST", "PUT", "DELETE" ]
+    },
+    //Booking Service
+    {
+      "DownstreampathTemplate": "/api/Booking/{everything}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 8006
+        }
+      ],
+      "UpstreamPathTemplate": "/gateway/Booking/{everything}",
+      "Methods": [ "GET", "POST", "PUT", "DELETE" ]
+    }
+  ]
+}
+

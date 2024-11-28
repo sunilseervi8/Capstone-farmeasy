@@ -1,0 +1,6 @@
+@Loan_and_Insurance_Service_HostAddress = http://localhost:5273
+
+GET {{Loan_and_Insurance_Service_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

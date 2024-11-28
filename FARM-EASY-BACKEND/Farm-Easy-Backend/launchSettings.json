@@ -1,0 +1,19 @@
+{
+  "profiles": {
+    "Docker Compose": {
+      "commandName": "DockerCompose",
+      "commandVersion": "1.0",
+      "serviceActions": {
+        "account_service": "StartDebugging",
+        "awareness-feedback-notification": "StartDebugging",
+        "cloud-services": "StartDebugging",
+        "farm-api-gateway": "StartDebugging",
+        "farm-easy-crop-service": "StartDebugging",
+        "loan-and-insurance-service": "StartDebugging",
+        "otp-service": "StartDebugging",
+        "product_services": "StartDebugging",
+        "rentservice": "StartDebugging"
+      }
+    }
+  }
+}

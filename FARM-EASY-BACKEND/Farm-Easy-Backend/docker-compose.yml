@@ -1,0 +1,109 @@
+
+version: "3.9"
+services:
+ sqlserver:
+   image: mcr.microsoft.com/mssql/server
+   ports:
+     - "1433:1433"
+   environment:
+    - ACCEPT_EULA=Y
+    - SA_PASSWORD=Passw0rd
+ mongodb:
+    image: mongo:latest
+    hostname: mongodb
+    ports:
+      - "27017:27017"
+      
+ account_service:
+    image: ${DOCKER_REGISTRY-}accountservice
+    build:
+      context: .
+      dockerfile: Account_Service/Dockerfile
+    ports:
+      - "5001:5001"
+    depends_on:
+      - sqlserver
+
+ awareness-feedback-notification:
+    image: ${DOCKER_REGISTRY-}awarenessfeedbacknotification
+    build:
+      context: .
+      dockerfile: Awareness-Feedback-Notification/Dockerfile
+    ports:
+      - "5002:5002"
+    depends_on:
+      - sqlserver
+
+ cloud-services:
+    image: ${DOCKER_REGISTRY-}cloudservices
+    build:
+      context: .
+      dockerfile: Cloud-Services/Dockerfile
+    ports:
+      - "5003:5003"
+    depends_on:
+      - sqlserver
+
+
+ farm-api-gateway:
+    image: ${DOCKER_REGISTRY-}farmapigateway
+    build:
+      context: .
+      dockerfile: Farm-API-Gateway/Dockerfile
+    ports:
+      - "5004:5004"
+    depends_on:
+      - sqlserver
+
+ farm-easy-crop-service:
+    image: ${DOCKER_REGISTRY-}farmeasycropservice
+    build:
+      context: .
+      dockerfile: Farm-Easy-Crops-Service/Dockerfile
+    ports:
+      - "5005:5005"
+    depends_on:
+      - sqlserver
+
+ loan-and-insurance-service:
+    image: ${DOCKER_REGISTRY-}loanandinsuranceservice
+    build:
+      context: .
+      dockerfile: Loan-and-Insurance-Service/Dockerfile
+    ports:
+      - "5006:5006"
+    depends_on:
+      - sqlserver
+
+ otp-service:
+    image: ${DOCKER_REGISTRY-}otpservice
+    build:
+      context: .
+      dockerfile: Otp-Service/Dockerfile
+    ports:
+      - "5007:5007"
+    depends_on:
+      - sqlserver
+
+
+ product_services:
+    image: ${DOCKER_REGISTRY-}productservices
+    build:
+      context: .
+      dockerfile: Product_Services/Dockerfile
+    ports:
+      - "5008:500"
+    depends_on:
+      - mongodb
+
+
+ rentservice:
+    image: ${DOCKER_REGISTRY-}rentservice
+    build:
+      context: .
+      dockerfile: RentService/Dockerfile
+    ports:
+      - "5009:5009"
+    depends_on:
+      - sqlserver
+

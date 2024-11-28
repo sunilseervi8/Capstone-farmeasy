@@ -1,0 +1,24 @@
+.crop-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+  }
+  .button {
+    padding: 15px 50px;
+    background-color:#f8f8f8;
+    margin: 0 5px;
+    cursor: pointer;
+    border: none;
+  }
+  
+  .button.active {
+    background-color: #00897B;
+    color: white;
+  }

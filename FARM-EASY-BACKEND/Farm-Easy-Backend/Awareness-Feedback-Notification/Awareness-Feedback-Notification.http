@@ -1,0 +1,6 @@
+@Awareness_Feedback_Notification_HostAddress = http://localhost:5178
+
+GET {{Awareness_Feedback_Notification_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

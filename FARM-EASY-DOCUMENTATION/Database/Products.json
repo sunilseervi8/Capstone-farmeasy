@@ -1,0 +1,136 @@
+[{
+  "_id": {
+    "$oid": "6720cf80b90bd1a148e009b4"
+  },
+  "ProductName": "FieldKing Rotary Tille",
+  "ProductDescription": "The disc plough is designed to work in all types of soil for functions such as soil breaking, soil raising, soil turning and soil mixing.\n It is used to open the new fields and to process the stony areas.\n It can be used easily at rocky and rooted areas.\n It is specially useful in hard and dry trashy land conditions and in soils where scouring is a major problem.\n It is being produced with 2-3-4 and 5 bottoms with an option for extra kit for furrow addition.\n",
+  "ProductPrice": 400000,
+  "SellerId": "73d0f6d9-9c40-4897-8609-2e94c69454df",
+  "ProductDatePosted": {
+    "$date": {
+      "$numberLong": "1730203520912"
+    }
+  },
+  "ProductImageUrl": "http://res.cloudinary.com/dbblipgvq/image/upload/v1730203520/Farm-Easy-Crops/Combine-Harvester-1-768x428.jpg",
+  "Productcategory": "Harvest Equipment"
+},{
+  "_id": {
+    "$oid": "6720cff0b90bd1a148e009b5"
+  },
+  "ProductName": "Rotary Tillers",
+  "ProductDescription": "Light weight compact machine for compact tractors 15-30hp.\nIt is used for small farms, fruit and vegetables, orchards, gardening and nurseries.\nSuitable for soil conditioning and weed control, seedbed preparation, puddling in small fields.\nIt is compatible for mini and lower HP tractor.\nCan loosen & aerate soil 4 to 5 inches deep.",
+  "ProductPrice": 299999,
+  "SellerId": "73d0f6d9-9c40-4897-8609-2e94c69454df",
+  "ProductDatePosted": {
+    "$date": {
+      "$numberLong": "1730203632955"
+    }
+  },
+  "ProductImageUrl": "http://res.cloudinary.com/dbblipgvq/image/upload/v1730203632/Farm-Easy-Crops/rotatory_tiller.jpg",
+  "Productcategory": "Tillage Equipment"
+},{
+  "_id": {
+    "$oid": "6720d048b90bd1a148e009b6"
+  },
+  "ProductName": "Side Shifting Rotary Tiller",
+  "ProductDescription": "1. It is used for tilling soil in orchards, vineyards, nurseries, greenhouses and hard to reach places.\n2. The hydraulic shifting system lets the tiller moves easily, quickly and accurately, to work closely to plants and crops without damaging them.\n 3.Sliding movement in Tillers with hydraulic sifting movement operate with chrome slider guides which have a low coefficient of friction. It is used to work in centre as well as offset position easily.\n",
+  "ProductPrice": 500000,
+  "SellerId": "73d0f6d9-9c40-4897-8609-2e94c69454df",
+  "ProductDatePosted": {
+    "$date": {
+      "$numberLong": "1730203720545"
+    }
+  },
+  "ProductImageUrl": "http://res.cloudinary.com/dbblipgvq/image/upload/v1730203719/Farm-Easy-Crops/side-shifting-rotary-tiller.png",
+  "Productcategory": "Tillage Equipment"
+},{
+  "_id": {
+    "$oid": "6720d0a9b90bd1a148e009b7"
+  },
+  "ProductName": "Multi Row Tiller",
+  "ProductDescription": "Multi row cultivator is used for proper cutting and aeration of soil, which makes the soil more fine for better plantation.\n This is designed for light and medium soils.\n The spring steel tyne is so designed that it does not need separate spring.\n The tynes are adjustable and the residue/weed almost never gets entangled with tyne while ploughing.\n Optionally, crumbler helps to control the depth and level of the soil as well as convert the soil into fine particles.\n",
+  "ProductPrice": 60000,
+  "SellerId": "73d0f6d9-9c40-4897-8609-2e94c69454df",
+  "ProductDatePosted": {
+    "$date": {
+      "$numberLong": "1730203817255"
+    }
+  },
+  "ProductImageUrl": "http://res.cloudinary.com/dbblipgvq/image/upload/v1730203816/Farm-Easy-Crops/multi-row-tiller.png",
+  "Productcategory": "Tillage Equipment"
+},{
+  "_id": {
+    "$oid": "6720d0e0b90bd1a148e009b8"
+  },
+  "ProductName": "Pneumatic Planter",
+  "ProductDescription": "Drops one Seed at a time no missing, no doubling.\n Saving of Costly Seed.\n No Damage to Seed during sowing operation.\n Precision in sowing can increase the yield from 10% to 15%.\n Uniform depth of sowing - better stand, better growth of roots, no waviness - better yield.\n",
+  "ProductPrice": 675675,
+  "SellerId": "73d0f6d9-9c40-4897-8609-2e94c69454df",
+  "ProductDatePosted": {
+    "$date": {
+      "$numberLong": "1730203872832"
+    }
+  },
+  "ProductImageUrl": "http://res.cloudinary.com/dbblipgvq/image/upload/v1730203872/Farm-Easy-Crops/pneumatic-planter.png",
+  "Productcategory": "Seeding Equipment"
+},{
+  "_id": {
+    "$oid": "6720d114b90bd1a148e009b9"
+  },
+  "ProductName": "Robust Multi Crop Row Planter",
+  "ProductDescription": " This Planter is used for planting of corn primarily and other different seeds such as Peas, Peanuts, Sunflower, Soya bean, Grams and Cotton Seeds can be panted easily. It also maintains plants to plant spacing in a row..\n Equipped with spring loaded seeding tines which enable the users to so in the soils having stones or roots in them without any problem..\n Superior quality furrow opener shovels gives long wear resistance life..\n Heavy duty construction with best quality raw material used..\n All the components and parts are manufactured on latest technology like..\n CNC machines, Mig Welding which ensures parts interchangeability, enhanced product life, Precise and reliable working.\n Better surface finish as a results of cleaning, short blasting, under coat and then painting with PU top coat to all the components before assembling ensuring the users can have long corrosion free product life\n Tines fitted with U Clamps for easy adjustments along with strong grip.\n",
+  "ProductPrice": 342342,
+  "SellerId": "73d0f6d9-9c40-4897-8609-2e94c69454df",
+  "ProductDatePosted": {
+    "$date": {
+      "$numberLong": "1730203924190"
+    }
+  },
+  "ProductImageUrl": "http://res.cloudinary.com/dbblipgvq/image/upload/v1730203923/Farm-Easy-Crops/multi-crop-row-planter.png",
+  "Productcategory": "Seeding Equipment"
+},{
+  "_id": {
+    "$oid": "6720d149b90bd1a148e009ba"
+  },
+  "ProductName": "Zero Till",
+  "ProductDescription": "The zero till consists of a seed box, fertilizer box, seed and fertilizer metering mechanisms, seed tubes, furrow openers, seed and fertilizer rate adjusting lever and transport cum power transmitting wheels.\n The length of the grooves exposed to the seed, can be increased or decreased and hence the amount of seed sown can be varied.\n Made from heavy structure and gauge sheets.\n Adjustable flow of fertilizer through knob.\n Used for sowing seeds of all kind of crops.",
+  "ProductPrice": 68578,
+  "SellerId": "73d0f6d9-9c40-4897-8609-2e94c69454df",
+  "ProductDatePosted": {
+    "$date": {
+      "$numberLong": "1730203977681"
+    }
+  },
+  "ProductImageUrl": "http://res.cloudinary.com/dbblipgvq/image/upload/v1730203977/Farm-Easy-Crops/zero-till.png",
+  "Productcategory": "Seeding Equipment"
+},{
+  "_id": {
+    "$oid": "6720d179b90bd1a148e009bb"
+  },
+  "ProductName": "Super Seeder",
+  "ProductDescription": "Fieldking Super Seeder is a combination of Rotary Tiller & Seed Planter with press wheels. It is extensively used for planting a wide variety of seeds like wheat, soybean & grass. It is useful for removing stubble & roots of Paddy, Sugarcane, Cotton, Banana, Maize etc. of various other crops.\n Super Seeder is a single pass solution to fulfill current farming needs to stop crop residue burning.\n It has a simple and easy metering system that allows changing of seed varieties with less seed waste and provides assurance of better germination.\n The metering device is designed with a combination of aluminium & cast iron for better performance & durability.\n It is low maintenance combination of Seed Planter and Rotary Tiller which is easy to operate and handle.",
+  "ProductPrice": 675675,
+  "SellerId": "73d0f6d9-9c40-4897-8609-2e94c69454df",
+  "ProductDatePosted": {
+    "$date": {
+      "$numberLong": "1730204025928"
+    }
+  },
+  "ProductImageUrl": "http://res.cloudinary.com/dbblipgvq/image/upload/v1730204025/Farm-Easy-Crops/super-seeder.png",
+  "Productcategory": "Seeding Equipment"
+},{
+  "_id": {
+    "$oid": "672a55bff90b2d80c78cef19"
+  },
+  "ProductName": "Kubota MU5501 4WD Tractor",
+  "ProductDescription": "sdfghjkl",
+  "ProductPrice": 3456788,
+  "SellerId": "73d0f6d9-9c40-4897-8609-2e94c69454df",
+  "ProductDatePosted": {
+    "$date": {
+      "$numberLong": "1730827711866"
+    }
+  },
+  "ProductImageUrl": "http://res.cloudinary.com/dbblipgvq/image/upload/v1730222533/Farm-Easy-Crops/Home1.jpg",
+  "Productcategory": "Harvest Equipment"
+}]
